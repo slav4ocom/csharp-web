@@ -72,7 +72,7 @@ namespace HttpClientDemo
                     "X-Server-Version: 1.0" + NewLine +
                     $"Set-Cookie: sid={sid}; HttpOnly; Max-Age=" + (100 * 24 * 60 * 60) + NewLine +
                     // "Content-Disposition: attachment; filename=niki.txt" + NewLine +
-                    "Content-Lenght: " + html.Length + NewLine +
+                    "Content-Length: " + html.Length + NewLine +
                     NewLine +
                     html + NewLine;
 
